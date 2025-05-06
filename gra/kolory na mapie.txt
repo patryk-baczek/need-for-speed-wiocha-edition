@@ -1,0 +1,7 @@
+34 177 76 zielony przebrana 
+163 73 164  meta wygrana fioletowy
+136 0 21 czerwony tankowawnie
+54 35 25 bloto zepsute auto
+255 174 201 start rozowy
+255 127 39 pomarańczowe pacholki zepsucie auta
+
