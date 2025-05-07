@@ -29,7 +29,12 @@ class Bmw(Samochod):
     def __init__(self):
         super().__init__("bmw",3,['auto3.png','auto3 lewo.png','auto3drift.png','auto3drift lewo.png','auto3nitro.png','auto3nitro lewo.png','autokaput.png'],2.3,70,60)
 
-dostepne_samochody = [Audi(), Bmw(), Mercedes()]
+class Porshe(Samochod):
+    def __init__(self):
+        super().__init__("porshe",4,['auto4.png','auto4 lewo.png','auto4drift.png','auto4drift lewo.png','auto4nitro.png','auto4nitro lewo.png','autokaput.png'],3,45,85)
+
+
+dostepne_samochody = [Audi(), Bmw(), Mercedes(), Porshe()]
 samochod_gracza = Audi()
 
 def wybierz_nastepny(samochod_gracza):
