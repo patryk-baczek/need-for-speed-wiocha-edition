@@ -80,7 +80,7 @@ def show_bind():
     bindS = czcionka.render("dół: S", True, (255, 255, 255))
     bindA = czcionka.render("lewo: A", True, (255, 255, 255))
     bindD = czcionka.render("prawo: D", True, (255, 255, 255))
-    bindR = czcionka.render("nitro: SHIFT", True, (255, 255, 255))
+    bindR = czcionka.render("naprawa: R", True, (255, 255, 255))
     bindCTRL = czcionka.render("drift: CTRL", True, (255, 255, 255))
     bindSHIFT = czcionka.render("nitro: SHIFT", True, (255, 255, 255))
 
@@ -88,9 +88,9 @@ def show_bind():
     screen_surface.blit(bindS, (SCREEN_WIDTH / 2, 150))
     screen_surface.blit(bindD, (SCREEN_WIDTH / 2, 250))
     screen_surface.blit(bindA, (SCREEN_WIDTH / 2, 350))
-    screen_surface.blit(bindR, (SCREEN_WIDTH / 2, 50))
-    screen_surface.blit(bindCTRL, (SCREEN_WIDTH / 2, 450))
-    screen_surface.blit(bindSHIFT, (SCREEN_WIDTH / 2, 550))
+    screen_surface.blit(bindR, (SCREEN_WIDTH / 2, 450))
+    screen_surface.blit(bindCTRL, (SCREEN_WIDTH / 2, 550))
+    screen_surface.blit(bindSHIFT, (SCREEN_WIDTH / 2, 650))
 
 def print_image(img_list) -> None:
     image, surface, rect = img_list
